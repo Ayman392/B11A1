@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fira-sans {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.body{
+    margin: 0 80.4px;
+    background-color: #F5F5F5;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.nav-title {
+    font-size: 32px;
+    color: #0E0E0E;
+}
+
+.nav-btn {
+    background-color: white;
+    margin: 25px 10px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: #006A50 1px solid;
+    font-size: 18px;
+    color: #006A50;
+}
+
+.banner {
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+.banner-title {
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.banner-details {
+    /* width: 416.74px; */
+    /* height: 218.42px; */
+    margin: 117px 0;
+    margin-left: 40.2px;
+}
+
+.banner-des{
+    font-weight: bold;
+    font-size: 50px;
+    color: #0E0E0E;
+}
+
+.banner-btn {
+    font-size: 18px;
+    color: white;
+    border: none;
+    font-weight: semibold;
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px 34px;
+}
+
+.banner-img {
+    margin: 80px ;
+    width: 475px;
+    height: 400px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.pillar-title,.vision-title , .opinion-title, .recent-title{
+    font-size: 40px;
+    color: #0E0E0E;
+}
+
+.cards {
+    background-color: white;
+    width: 380px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #0E0E0E;
+}
+
+.card-details {
+    font-size: 18px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-cards{
+    display: flex;
+    margin: 50px 0;
+}
+
+.vision-des,.recent-desc{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 40px;
+}
+
+.vision-card1{
+    background-color: rgba(84, 144, 245, 0.2);
+    width: 550px;
+    height: 300px;
+    border-radius: 12px;
+    padding: 30px 20px;
+    margin-right: 40px;
+}
+
+.vision-card2{
+    background-color: rgba(198, 228, 214, 1);
+    width: 550px;
+    height: 300px;
+    border-radius: 12px;
+    padding: 30px 20px;
+    color: white;
+}
+
+.vision-card3{
+    background-color: rgba(247, 235, 207, 1);
+    width: 550px;
+    height: 300px;
+    border-radius: 12px;
+    padding: 30px 20px;
+    margin-left: 40px;
+}
+
+.desc-section {
+    background-color: white;
+    border-radius: 12px;
+    padding: 40px 60px;
+    margin-bottom: 80px;
+}
+
+.desc-img {
+    position: absolute;
+    width: 65px;
+}
+.desc {
+    position: relative;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 30px;
+}
+
+.desc-title {
+    font-size: 30px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.desc-prof {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.6);
+}
+
+.table{
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.opinion-table{
+    width: 100%;
+    padding: 30px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 20px;
+}
+
+.thead{
+    background-color: #C6E4D6;
+    font-size: 36px;
+    font-weight: 800;
+    color: #0E0E0E;
+    width: 100%;
+}
+
+.tdes {
+    color: #0E0E0E;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.tbtn{
+    border: 1px solid rgba(14, 14, 14, 1) ;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 10px;
+    border-radius: 4px;
+    color: #0E0E0E;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.btn-arrow{
+    width: 10px;
+}
+
+.table-section{
+    margin-bottom: 80px;
+}
+
+.bd-card1,.bd-card2, .bd-card3{
+    display: flex;
+    background-color: white;
+    height: 280px;
+    border-radius: 10px;
+    padding: 30px ;
+    margin: 30px 0;
+    gap: 30px;
+}
+
+.sat-img{
+    border-radius: 20px;
+}
+
+.bd-title{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 10px;
+}
+
+.date{
+    font-size: 14px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 4px;
+}
+
+.bd-desc{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.readMore{
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 26px;
+    color: white;
+    background-color: rgba(0, 106, 80, 1);
+}
+
+.donate-section{
+    padding: 0 70px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.donate-title,.sub-title{
+    font-size: 36px;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+}
+
+.donate-desc{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 40px 0;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.opt{
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 8px;
+    padding: 40px;
+    font-size: 20px;
+    color: #0E0E0E;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.select {
+    background-color: rgba(198, 228, 214, 1) ;
+}
+
+#input-amount {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    margin: 20px 0;
+}
+
+.doneBtn{
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 16px 24px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+.subscribe-section{
+    background-color: #C6E4D6;
+    border-radius: 12px;
+    padding: 60px 80px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.subs-desc{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 0 150px ;
+}
+
+#sub-box{
+    width: 60%;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.sub-btn{
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 20px 30px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+.sub {
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.footer {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.footer-content {
+    padding: 20px;  
+}
+
+.f-title{
+    font-size: 30px;
+    color: #0E0E0E;
+}
+.logo {
+    margin: 20px 10px;
+}
+
+
+
